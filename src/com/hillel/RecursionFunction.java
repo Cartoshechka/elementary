@@ -1,6 +1,6 @@
 package com.hillel;
 
-public class RecursionCursion {
+public class RecursionFunction {
     public static void main(String[] args) {
 
         recursionFucn(0);
