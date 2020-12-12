@@ -1,4 +1,4 @@
-package com.hillel;
+package com.hillel.lesson1;
 
 public class Arguments {
     public static void main(String[] args) {
