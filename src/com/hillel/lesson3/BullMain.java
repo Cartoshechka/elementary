@@ -2,7 +2,7 @@ package com.hillel.lesson3;
 
 public class BullMain {
     public static void main(String[] args) {
-        Bull bull = new Bull("BUll",29);
+        Bull bull = new Bull("BUll", 29);
         Bull bull1 = new Bull("RedBull", 76);
         System.out.println(Bull.fight(bull.strength, bull1.strength));
         System.out.println("There was " + Bull.getCount() + " bulls in fight.");
@@ -14,7 +14,7 @@ public class BullMain {
             bulls[i] = new Bull("Bull " + i);
         }*/
 
-       // System.out.println("Bull count: " + Bull.getCount());
+        // System.out.println("Bull count: " + Bull.getCount());
 
         /*bull.getCount();
 

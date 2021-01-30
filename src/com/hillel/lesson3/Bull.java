@@ -34,17 +34,17 @@ public class Bull {
         return "Bull " + name + " strength " + strength;
     }
 
-    public static String fight(int strength, int strength2){
+    public static String fight(int strength, int strength2) {
 
-        if (strength > strength2){
-           return "Bull1 won";
-        }else {
+        if (strength > strength2) {
+            return "Bull1 won";
+        } else {
             return "Bull2 won";
         }
 
     }
 
-    public boolean fight1(Bull bull){
+    public boolean fight1(Bull bull) {
         return this.strength > bull.strength;
 
     }

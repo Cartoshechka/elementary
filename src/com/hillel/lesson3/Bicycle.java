@@ -17,36 +17,36 @@ public class Bicycle {
     @Override
     public String toString() {
         return "Bicycle{" +
-                "weight=" + height +
+                "height=" + height +
                 ", model='" + model + '\'' +
                 '}';
     }
 
 
-
-    public String ride(){
+    public String ride() {
         return "Riding";
     }
 
-    public class SteeringWheel{
+    public class SteeringWheel {
 
-        public void left (){
+        public void left() {
             System.out.println("left");
         }
 
-        public void  right(){
+        public void right() {
             System.out.println("right");
         }
 
     }
+
     public class Seat {
 
-        public void up(){
+        public void up() {
             height++;
             System.out.println("up");
         }
 
-        public void down(){
+        public void down() {
             height--;
             System.out.println("down");
         }
