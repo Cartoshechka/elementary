@@ -12,5 +12,22 @@ public class TikTak1 {
         Thread.sleep(5000);
 
     }
+
+    static class clocksThread1 extends Thread {
+
+        @Override
+        public void run() {
+            while (!isInterrupted()) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("Tik");
+
+            }
+
+        }
+    }
 }
 
